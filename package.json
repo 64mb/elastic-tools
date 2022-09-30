@@ -1,0 +1,15 @@
+{
+    "name": "elastic-tools",
+    "version": "1.0.0",
+    "description": "ElasticSearch Tools",
+    "main": "main.js",
+    "dependencies": {
+        "@elastic/elasticsearch": "^7.9.1",
+        "dotenv": "^8.2.0",
+        "elasticdump": "^6.33.1"
+    },
+    "scripts": {
+        "start": "node main.js"
+    },
+    "author": "64mb"
+}
